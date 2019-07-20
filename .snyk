@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - critical > request > extend:
+        patched: '2019-07-20T08:59:33.670Z'
+    - critical > postcss-image-inliner > request > extend:
+        patched: '2019-07-20T08:59:33.670Z'
+    - critical > penthouse > phantomjs-prebuilt > request > extend:
+        patched: '2019-07-20T08:59:33.670Z'
+    - critical > postcss-image-inliner > asset-resolver > request > extend:
+        patched: '2019-07-20T08:59:33.670Z'
